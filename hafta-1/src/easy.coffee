@@ -6,10 +6,10 @@
 # Sonucu ekrana yaz
 
 # Doğum tarihi(GG/AA/YYYY)
-easy = (dogum) -> 
-    birthday = new Date(dogum).getFullYear()
+easy = (birthday) -> 
+    birthday = new Date(birthday).getFullYear()
     now = new Date().getFullYear()
     yas = now - birthday
 
 
-console.log easy("01/01/2003")
+console.log easy("01/01/2000")

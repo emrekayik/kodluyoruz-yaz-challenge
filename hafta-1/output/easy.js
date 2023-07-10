@@ -10,13 +10,13 @@
   // Doğum tarihi(GG/AA/YYYY)
   var easy;
 
-  easy = function(dogum) {
-    var birthday, now, yas;
-    birthday = new Date(dogum).getFullYear();
+  easy = function(birthday) {
+    var now, yas;
+    birthday = new Date(birthday).getFullYear();
     now = new Date().getFullYear();
     return yas = now - birthday;
   };
 
-  console.log(easy("01/01/2003"));
+  console.log(easy("01/01/2000"));
 
 }).call(this);
