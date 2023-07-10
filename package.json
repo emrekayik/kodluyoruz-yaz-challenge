@@ -1,0 +1,26 @@
+{
+  "name": "kodluyoruz-yaz-challenge",
+  "version": "1.0.0",
+  "description": "Kodluyoruz Yaz Challange için geliştirdiğim algoritmalar repo'su.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrekayik/kodluyoruz-yaz-challenge.git"
+  },
+  "keywords": [
+    "coffescript",
+    "algorithm"
+  ],
+  "author": "Emre Kayık <emrekayik1905@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrekayik/kodluyoruz-yaz-challenge/issues"
+  },
+  "homepage": "https://github.com/emrekayik/kodluyoruz-yaz-challenge#readme",
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  }
+}
