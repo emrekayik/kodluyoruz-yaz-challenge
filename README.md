@@ -31,7 +31,11 @@ node .\output\easy.js
 
 
 <details>
-<summary><h2>Hafta 1</h2></summary>
+<summary>
+
+## Hafta 1
+
+</summary>
 
 #### [Easy](/hafta-1/src/easy.coffee): Kullanıcının doğum tarihini alarak kaç yaşında olduğunu bulan bir algoritma
 Kaynaklar:
