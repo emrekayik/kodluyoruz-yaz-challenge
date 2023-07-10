@@ -6,7 +6,7 @@
 # Sonucu ekrana yaz
 
 # Doğum tarihi(GG/AA/YYYY)
-easy = (birthday) -> 
+easy = (birthday) ->
     birthday = new Date(birthday).getFullYear()
     now = new Date().getFullYear()
     yas = now - birthday
