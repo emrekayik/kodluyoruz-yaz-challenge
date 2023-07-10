@@ -6,9 +6,6 @@ CoffeeScript ile yazılmıştır.
 
 - [kurulum](#kurulum)
 - [Hafta 1](#hafta-1)
-  - [Easy](#easy)
-  - [Medium](#medium)
-  - [Hard](#hard)
 
 
 <details>
