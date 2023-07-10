@@ -4,8 +4,19 @@ Kodluyoruz Yaz Challange için geliştirdiğim algoritmalar repo'su.
 
 CoffeeScript ile yazılmıştır.
 
+- [kurulum](#kurulum)
+- [Hafta 1](#hafta-1)
+  - [Easy](#easy)
+  - [Medium](#medium)
+  - [Hard](#hard)
+
+
+<details>
+<summary>
 
 ## Kurulum
+
+</summary>
 
 ```bash
 git clone https://github.com/emrekayik/kodluyoruz-yaz-challenge.git
@@ -19,6 +30,8 @@ cd hafta-1
 ../node_modules/.bin/coffee -c -o output/ src/
 node .\output\easy.js
 ```
+</details>
+
 
 <details>
 <summary><h2>Hafta 1</h2></summary>
@@ -37,6 +50,4 @@ Kaynaklar:
 </details>
 
 ---
-
- emrekayik/kodluyoruz-yaz-challenge
- 07/2023
+emrekayik/kodluyoruz-yaz-challenge - 07/2023
