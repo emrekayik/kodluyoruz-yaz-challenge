@@ -8,9 +8,9 @@
   // Sonucu ekrana yaz
 
   // Kelime
-  var easy;
+  var medium;
 
-  easy = function(word) {
+  medium = function(word) {
     var i, j, ref;
     word = word.split("");
     for (i = j = 0, ref = word.length - 1; (0 <= ref ? j <= ref : j >= ref); i = 0 <= ref ? ++j : --j) {
@@ -21,6 +21,6 @@
     return word.join("");
   };
 
-  console.log(easy("Merhaba"));
+  console.log(medium("Merhaba"));
 
 }).call(this);
