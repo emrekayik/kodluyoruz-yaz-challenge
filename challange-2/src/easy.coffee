@@ -1,15 +1,14 @@
-# Kullanıcının doğum tarihini alarak kaç yaşında olduğunu bulan bir algoritma
+# Kullanıcıdan bir sayı almanızı ve bu sayının asal olup olmadığını bulan bir algoritma
 
-# Kullanıcıdan doğum tarihini al
-# Şimdiki tarihi al
-# Şimdiki tarihten doğum tarihini çıkar
+# Kullanıcıdan sayı al
+# Sayıyı 2'den başlayarak kendisine kadar olan sayılara böl
+# Eğer bölünen sayı varsa asal değildir
+# Eğer bölünen sayı yoksa asaldır
 # Sonucu ekrana yaz
 
-# Doğum tarihi(GG/AA/YYYY)
-easy = (birthday) ->
-    birthday = new Date(birthday).getFullYear()
-    now = new Date().getFullYear()
-    yas = now - birthday
-
-
-console.log easy("01/01/2000")
+# Sayı
+easy = (number) ->
+    for i in [2..number-1]
+        if number % i == 0
+            return "Asal değil"
+    return "Asal"
