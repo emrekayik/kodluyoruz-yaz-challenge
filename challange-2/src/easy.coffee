@@ -12,3 +12,5 @@ easy = (number) ->
         if number % i == 0
             return "Asal değil"
     return "Asal"
+
+console.log easy(7)
