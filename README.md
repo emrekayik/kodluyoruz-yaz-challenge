@@ -6,6 +6,7 @@ CoffeeScript ile yazılmıştır.
 
 - [kurulum](#kurulum)
 - [Challange 1](#challange-1)
+- [Challange 2](#challange-2)
 
 
 <details>
@@ -69,5 +70,7 @@ Kaynaklar:
 Kaynaklar:
 - Kaynak yok - çok uğraştırdı
 </details>
+
 ---
+
 emrekayik/kodluyoruz-yaz-challenge - 07/2023
