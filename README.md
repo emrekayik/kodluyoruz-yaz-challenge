@@ -51,4 +51,5 @@ Kaynaklar:
 </details>
 
 ---
+> Bunu yazmak inanılmaz uğraştırıcı olduğu için yazılarımı en son ekleyeceğim. Kaynakları başka yerde biriktiriyorum.
 emrekayik/kodluyoruz-yaz-challenge - 07/2023
