@@ -29,12 +29,10 @@ node .\output\easy.js
 ```
 </details>
 
-
 <details>
 <summary>
 
 ## Challange 1
-
 </summary>
 
 #### [Easy](/challange-1/src/easy.coffee): Kullanıcının doğum tarihini alarak kaç yaşında olduğunu bulan bir algoritma
@@ -51,5 +49,25 @@ Kaynaklar:
 </details>
 
 ---
-> Bunu yazmak inanılmaz uğraştırıcı olduğu için yazılarımı en son ekleyeceğim. Kaynakları başka yerde biriktiriyorum.
+
+<details>
+<summary>
+
+## Challange 2
+</summary>
+
+#### [Easy](/challange-2/src/easy.coffee): Kullanıcıdan bir sayı alan ve bu sayının asal olup olmadığını bulan bir algoritma
+Kaynaklar:
+- [coffeeScript resmi dokümanı](https://coffeescript.org)
+
+#### [Medium](/challange-2/src/medium.coffee): Kullanıcıdan kelime alan ve bu kelimedeki harfleri büyük harflere dönüştüren bir algoritma.
+Kaynaklar:
+- [mozilla/javascript/charCodeAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
+- [mozilla/javascript/fromCharCode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+
+#### [Hard](/challange-2/src/hard.coffee): şirket, bir ürünü üretmek ve satmak için belirli bir maliyet ve satış fiyatı hesaplamaktadır. Kaç adet ürünün satılması durumunda şirketin kar edeceğini bulan bir algoritma
+Kaynaklar:
+- Kaynak yok - çok uğraştırdı
+</details>
+---
 emrekayik/kodluyoruz-yaz-challenge - 07/2023

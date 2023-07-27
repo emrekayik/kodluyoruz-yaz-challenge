@@ -1,4 +1,4 @@
-# Kullanıcıdan bir sayı almanızı ve bu sayının asal olup olmadığını bulan bir algoritma
+# Kullanıcıdan bir sayı alan ve bu sayının asal olup olmadığını bulan bir algoritma
 
 # Kullanıcıdan sayı al
 # Sayıyı 2'den başlayarak kendisine kadar olan sayılara böl
