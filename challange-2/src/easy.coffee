@@ -10,7 +10,7 @@
 easy = (number) ->
     for i in [2..number-1]
         if number % i == 0
-            return "Asal değil"
-    return "Asal"
+            return number + " asal bir sayi degildir."
+    return number + " asal bir sayidir."
 
-console.log easy(7)
+console.log easy(17)

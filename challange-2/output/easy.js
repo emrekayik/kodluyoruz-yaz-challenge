@@ -15,12 +15,12 @@
     var i, j, ref;
     for (i = j = 2, ref = number - 1; (2 <= ref ? j <= ref : j >= ref); i = 2 <= ref ? ++j : --j) {
       if (number % i === 0) {
-        return "Asal değil";
+        return number + " asal bir sayi degildir.";
       }
     }
-    return "Asal";
+    return number + " asal bir sayidir.";
   };
 
-  console.log(easy(7));
+  console.log(easy(17));
 
 }).call(this);
