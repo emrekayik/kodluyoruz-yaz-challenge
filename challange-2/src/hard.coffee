@@ -8,3 +8,18 @@
 # Cost price’dan her zaman düşük olmalıdır, eğer aynı veya yüksek olursa  kâr edilemez uyarısı dönmelidir.
 
 
+hard = (cost, price) ->
+    if cost >= price
+        return "kâr edilemez"
+    else
+        calculateProfit = (cost, price) ->
+            # Kar miktarını hesapla
+            profit = price - cost
+            # Toplam karı bulmak için gerekli olan ürün adedini hesapla
+            productCountForProfit = Math.ceil(cost / profit)
+            return productCountForProfit
+        # Ürün adedini hesapla
+        productCount = calculateProfit(cost, price)
+        return "kaç ürün satılırsa kâr edilir?: #{productCount}"
+
+console.log hard(100, 150)
